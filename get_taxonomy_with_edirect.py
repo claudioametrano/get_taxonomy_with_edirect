@@ -1,11 +1,3 @@
-import colorama
-from colorama import Fore, Back, Style
-colorama.init(autoreset=True)
-
-print(Fore.MAGENTA + "*****************************************")
-print(Fore.MAGENTA +  "*" + Fore.YELLOW + "Claudio G. Ametrano 2020 @ Field Museum" + Fore.MAGENTA +"*")
-print(Fore.MAGENTA + "*****************************************")
-
 # command line interface creation package: click
 import click
 import os 
